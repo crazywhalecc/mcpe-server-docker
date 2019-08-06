@@ -1,6 +1,4 @@
 FROM debian
-MAINTAINER Jérémy DECOOL <contact@jdecool.fr>
-
 
 #RUN echo \
 #    deb http://mirrors.aliyun.com/debian/ buster main contrib non-free\
