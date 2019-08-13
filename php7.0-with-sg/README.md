@@ -1,3 +1,6 @@
+## Feature
+提供了PHP7.2-ZTS版本的SourceGuardian最新版
+
 ## 手动build用法
 1. 新建文件夹 `mcserver/`， `mcdocker/` ，文件夹名字可自定义
 2. 将Dockerfile下载到 `mcdocker/` 目录下，然后 `cd mcdocker`
