@@ -53,7 +53,7 @@ RUN wget https://github.com/krakjoe/pthreads/archive/v3.1.6.tar.gz \
 RUN echo "extension=pthreads.so" >> $(php -i | grep "Loaded Configuration File" | awk '{print $5}')
 
 
-RUN wget https://github.com/crazywhalecc/sg-loader/raw/master/ixed.7.0ts.lin && mv ixed.7.0ts.lin $(php -i | grep "extensions/no-debug" | awk '{print $3}')/ \
+RUN wget https://github.com/crazywhalecc/mcpe-server-docker/raw/master/sg-loader/ixed.7.0ts.lin && mv ixed.7.0ts.lin $(php -i | grep "extensions/no-debug" | awk '{print $3}')/ \
 	&& echo "extension=ixed.7.0ts.lin" >> $(php -i | grep "Loaded Configuration File" | awk '{print $5}')
 
 RUN rm php-$VERSION.tar.bz2 \
